@@ -16,7 +16,7 @@ headers["Authorization"] = f"Bearer {bearer_token}"
 params = {
     "query": "Oscars2025 lang:en",  # the words you want to search
     "max_results": 40,  # tweet limit
-    "tweet.fields": "created_at,author_id"  # Bu alanları API yanıtına dahil et
+    "tweet.fields": "created_at,author_id"
 }
 
 # API request
