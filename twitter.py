@@ -33,10 +33,10 @@ if response.status_code == 200:
 
         words = []
 
-        for tweet in tweets_data.get('data', []):  # Eğer 'data' yoksa boş liste döner
-            tweet_text = tweet.get('text', 'N/A')  # Eğer 'text' yoksa 'N/A' yaz
-            tweet_created_at = tweet.get('created_at', 'N/A')  # Eğer 'created_at' yoksa 'N/A' yaz
-            tweet_author_id = tweet.get('author_id', 'N/A')  # Eğer 'author_id' yoksa 'N/A' yaz
+        for tweet in tweets_data.get('data', []):
+            tweet_text = tweet.get('text', 'N/A')
+            tweet_created_at = tweet.get('created_at', 'N/A')
+            tweet_author_id = tweet.get('author_id', 'N/A')
 
             # sentiment analysis
             blob = TextBlob(tweet_text)
