@@ -1,0 +1,11 @@
+Most common words:
+https: 39
+t: 39
+co: 39
+the: 36
+rt: 35
+oscars2025: 35
+for: 30
+flow: 26
+auveiss: 24
+congrats: 24
